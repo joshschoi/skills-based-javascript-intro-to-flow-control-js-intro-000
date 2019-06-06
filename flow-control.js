@@ -4,7 +4,7 @@ var basicTeenager = function(age) {
   }
 }
 
-function teenager(age) {
+var teenager = function(age) {
   if (age >= 13 && age <= 19){
     return "You are a teenager!";
   } else{
@@ -12,7 +12,7 @@ function teenager(age) {
   }
 }
 
-function ageChecker(age) {
+var ageChecker = function(age) {
   if (age >= 13 && age <= 19){
     return "You are a teenager!";
   } elseif (age <= 12){
